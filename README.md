@@ -1,0 +1,2 @@
+# PinayismJourney
+Ind. Study Project
