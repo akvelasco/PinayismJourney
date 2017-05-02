@@ -50,6 +50,12 @@ body, html {
     letter-spacing: 4px;
 }
 
+.bulosan
+{list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    overflow: none;
+    background-color: none}
 html
 	{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 
@@ -153,16 +159,20 @@ font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	font-weight: 400;
 	line-height: 20px;
 } 
-blockquote
-{
-font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	font-size: 16px;
-	font-style: italic;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-
+blockquote {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow: none
+    padding-left:80px;
+    padding-right:80px;
+    font-size: 16px;
+    font-style: italic;
 }
+
 w3-hide-small, w3-left-align,w3-hide-small w3-right,
 {
 	background-color: inherit;
